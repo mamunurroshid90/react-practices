@@ -1,4 +1,5 @@
 import "./App.css";
+import NestedMap from "./components/nestedMapping/NestedMap";
 import List from "./components/uniqueList/List";
 
 function App() {
@@ -6,7 +7,8 @@ function App() {
     <>
       <div>
         <h1>Hello Bangladesh</h1>
-        <List />
+        {/* <List /> */}
+        <NestedMap />
       </div>
     </>
   );
