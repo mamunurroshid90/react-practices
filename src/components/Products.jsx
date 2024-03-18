@@ -8,8 +8,9 @@ const Products = (props) => {
   return (
     <div className="products-cart">
       {products.map((product, index) => {
+        const { id } = product;
         return (
-          <div key={index}>
+          <div key={id}>
             <Product product={product} />
           </div>
         );
