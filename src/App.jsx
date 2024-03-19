@@ -1,5 +1,6 @@
 import "./App.css";
-import HomePage from "./components/conditionalRendering/HomePage";
+import Counter from "./components/counter/Counter";
+// import HomePage from "./components/conditionalRendering/HomePage";
 // import Products from "./components/Products";
 
 function App() {
@@ -93,7 +94,9 @@ function App() {
           Product Cart
         </h1>
         {/* <Products products={products} /> */}
-        <HomePage isLoggedIn={false} userName="Mamunur Roshid" />
+        {/* <HomePage isLoggedIn={false} userName="Mamunur Roshid" /> */}
+
+        <Counter />
       </div>
     </>
   );
