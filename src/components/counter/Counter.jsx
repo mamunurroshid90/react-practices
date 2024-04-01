@@ -2,23 +2,26 @@ import React, { useState } from "react";
 
 const Counter = () => {
   const [count, setCount] = useState(0);
-  //   console.log(count);
-
-  const handleIncrease = () => {
-    setCount((prevCount) => prevCount + 1);
-    setCount((prevCount) => prevCount + 1);
-    setCount((prevCount) => prevCount + 1);
+  const handlePlusButton = () => {
     setCount((prevCount) => prevCount + 1);
   };
-  const handleDecrease = () => {
+  const handleMinusButton = () => {
     setCount((prevCount) => prevCount - 1);
-    setCount((prevCount) => prevCount - 1);
+  };
+  const handleResetButton = () => {
+    setCount((prevCount) => prevCount === 0);
   };
   return (
     <div>
-      <h2>Count: {count}</h2>
-      <button onClick={handleIncrease}>Increase</button>
-      <button onClick={handleDecrease}>Decrease</button>
+      <h2>Counter App</h2>
+      <h1>Count is {count} </h1>
+      <button onClick={handlePlusButton} disabled={count >= 5}>
+        +
+      </button>
+      <button onClick={handleMinusButton} disabled={count <= 1}>
+        -
+      </button>
+      <button onClick={handleResetButton}>Reset</button>
     </div>
   );
 };

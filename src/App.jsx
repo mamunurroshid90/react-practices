@@ -1,5 +1,8 @@
-import "./App.css";
+// import "./App.css";
+import DatapassFromChild from "./components/DatapassFromChild";
+import Form from "./components/Form";
 import Counter from "./components/counter/Counter";
+import Home from "./simple todo/Home";
 // import HomePage from "./components/conditionalRendering/HomePage";
 // import Products from "./components/Products";
 
@@ -90,13 +93,14 @@ function App() {
   return (
     <>
       <div>
-        <h1 style={{ textAlign: "center", padding: "30px 0", color: "white" }}>
-          Product Cart
-        </h1>
+        <h1>Product Cart</h1>
         {/* <Products products={products} /> */}
         {/* <HomePage isLoggedIn={false} userName="Mamunur Roshid" /> */}
 
-        <Counter />
+        {/* <Counter /> */}
+        {/* <Form /> */}
+        {/* <DatapassFromChild /> */}
+        <Home />
       </div>
     </>
   );
