@@ -1,10 +1,13 @@
 // import "./App.css";
-import DatapassFromChild from "./components/DatapassFromChild";
-import Form from "./components/Form";
-import Counter from "./components/counter/Counter";
-import Home from "./simple todo/Home";
+// import DatapassFromChild from "./components/DatapassFromChild";
+// import Form from "./components/Form";
+// import Counter from "./components/counter/Counter";
+// import Home from "./simple todo/Home";
 // import HomePage from "./components/conditionalRendering/HomePage";
 // import Products from "./components/Products";
+
+import Home from "./components/todo-app/Home";
+import Toggle from "./toggle/Toggle";
 
 function App() {
   // const products = [
@@ -93,14 +96,16 @@ function App() {
   return (
     <>
       <div>
-        <h1>Product Cart</h1>
+        {/* <h1>Product Cart</h1> */}
         {/* <Products products={products} /> */}
         {/* <HomePage isLoggedIn={false} userName="Mamunur Roshid" /> */}
 
         {/* <Counter /> */}
         {/* <Form /> */}
         {/* <DatapassFromChild /> */}
-        <Home />
+        {/* <Home /> */}
+        {/* <Home /> */}
+        <Toggle />
       </div>
     </>
   );
