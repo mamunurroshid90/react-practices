@@ -6,7 +6,9 @@
 // import HomePage from "./components/conditionalRendering/HomePage";
 // import Products from "./components/Products";
 
+import DataFetch from "./DataFetch";
 import Home from "./components/todo-app/Home";
+import Faqs from "./faqs/Faqs";
 import Toggle from "./toggle/Toggle";
 
 function App() {
@@ -105,7 +107,9 @@ function App() {
         {/* <DatapassFromChild /> */}
         {/* <Home /> */}
         {/* <Home /> */}
-        <Toggle />
+        {/* <Toggle /> */}
+        {/* <Faqs /> */}
+        <DataFetch />
       </div>
     </>
   );
