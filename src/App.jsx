@@ -8,6 +8,7 @@
 
 import DataFetch from "./DataFetch";
 import Home from "./components/todo-app/Home";
+import CountryApp from "./country-app/CountryApp";
 import Faqs from "./faqs/Faqs";
 import Toggle from "./toggle/Toggle";
 import TostifyNotify from "./tostify/TostifyNotify";
@@ -111,7 +112,8 @@ function App() {
         {/* <Toggle /> */}
         {/* <Faqs /> */}
         {/* <DataFetch /> */}
-        <TostifyNotify />
+        {/* <TostifyNotify /> */}
+        <CountryApp />
       </div>
     </>
   );
