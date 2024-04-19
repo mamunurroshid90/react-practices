@@ -10,6 +10,7 @@ import DataFetch from "./DataFetch";
 import Home from "./components/todo-app/Home";
 import Faqs from "./faqs/Faqs";
 import Toggle from "./toggle/Toggle";
+import TostifyNotify from "./tostify/TostifyNotify";
 
 function App() {
   // const products = [
@@ -109,7 +110,8 @@ function App() {
         {/* <Home /> */}
         {/* <Toggle /> */}
         {/* <Faqs /> */}
-        <DataFetch />
+        {/* <DataFetch /> */}
+        <TostifyNotify />
       </div>
     </>
   );
