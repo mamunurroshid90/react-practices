@@ -19,10 +19,11 @@ const DynamicStyleReact = () => {
   return (
     <div className=" flex justify-center items-center h-screen">
       <input
-        className=" border-2 border-red-400 py-3 px-4"
+        className={`border-2 border-red-400 py-3 px-4 ${
+          validInput ? "bg-green-400" : "bg-red-500"
+        }`}
         type="text"
         onChange={handleChange}
-        style={{ backgroundColor: validInput ? "green" : "red" }}
       />
     </div>
   );
