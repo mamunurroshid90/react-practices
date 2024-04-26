@@ -9,6 +9,7 @@
 import DataFetch from "./DataFetch";
 import Home from "./components/todo-app/Home";
 import CountryApp from "./country-app/CountryApp";
+import DynamicStyleReact from "./dynamicStyle/DynamicStyleReact";
 import Faqs from "./faqs/Faqs";
 import Toggle from "./toggle/Toggle";
 import TostifyNotify from "./tostify/TostifyNotify";
@@ -113,7 +114,8 @@ function App() {
         {/* <Faqs /> */}
         {/* <DataFetch /> */}
         {/* <TostifyNotify /> */}
-        <CountryApp />
+        {/* <CountryApp /> */}
+        <DynamicStyleReact />
       </div>
     </>
   );
