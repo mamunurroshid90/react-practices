@@ -14,6 +14,8 @@ import Faqs from "./faqs/Faqs";
 import Toggle from "./toggle/Toggle";
 import TostifyNotify from "./tostify/TostifyNotify";
 import UseRef from "./useRef/UseRef";
+import Componetnts1 from "./use_context/Componetnts1";
+// import UseContext from "./use_context/UseContext";
 
 function App() {
   // const products = [
@@ -117,7 +119,8 @@ function App() {
         {/* <TostifyNotify /> */}
         {/* <CountryApp /> */}
         {/* <DynamicStyleReact /> */}
-        <UseRef />
+        {/* <UseRef /> */}
+        <Componetnts1 />
       </div>
     </>
   );
