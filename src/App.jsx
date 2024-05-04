@@ -13,6 +13,7 @@ import DynamicStyleReact from "./dynamicStyle/DynamicStyleReact";
 import Faqs from "./faqs/Faqs";
 import Toggle from "./toggle/Toggle";
 import TostifyNotify from "./tostify/TostifyNotify";
+import UseRef from "./useRef/UseRef";
 
 function App() {
   // const products = [
@@ -115,7 +116,8 @@ function App() {
         {/* <DataFetch /> */}
         {/* <TostifyNotify /> */}
         {/* <CountryApp /> */}
-        <DynamicStyleReact />
+        {/* <DynamicStyleReact /> */}
+        <UseRef />
       </div>
     </>
   );
